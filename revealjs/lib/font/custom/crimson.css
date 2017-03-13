@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Crimson';
+    src: url('https://jeffreymoro.com/assets/fonts/crimson-roman-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('https://jeffreymoro.com/assets/fonts/crimson-italic-webfont.woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('https://jeffreymoro.com/assets/fonts/crimson-bold-webfont.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('https://jeffreymoro.com/assets/fonts/crimson-bolditalic-webfont.woff');
+    font-weight: 600;
+    font-style: italic;
+}
