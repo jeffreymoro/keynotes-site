@@ -206,7 +206,7 @@ body {
 .reveal small * {
   vertical-align: top; }
 
-body:after {
+body::after {
   background-image: url('../../../logo/twitter-crimson.png');
   background-size: 219px 40px;
   background-repeat: no-repeat;
