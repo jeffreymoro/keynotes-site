@@ -206,8 +206,9 @@ body {
 .reveal small * {
   vertical-align: top; }
 
+/*
 body:after {
-  background-image: url("../../../logo/twitter-crimson.png");
+  background-image: url('../../../logo/twitter-crimson.png');
   background-size: 219px 40px;
   background-repeat: no-repeat;
   position: fixed;
@@ -216,8 +217,9 @@ body:after {
   z-index: 30;
   right: 120px;
   bottom: 8px;
-  content: ""; }
-
+  content: "";
+}
+*/
 /*********************************************
  * LINKS
  *********************************************/
