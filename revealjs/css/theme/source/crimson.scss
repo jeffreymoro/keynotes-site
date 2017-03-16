@@ -14,6 +14,10 @@ body {
   background: #222;
   background-color: #222; }
 
+p.subtitle {
+  font-style: italic;
+}
+
 .reveal {
   font-family: "Crimson", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
@@ -205,7 +209,7 @@ body {
 
 .reveal small * {
   vertical-align: top; }
-
+/*
 body::after {
   background-image: url('../../../logo/twitter-crimson.png');
   background-size: 219px 40px;
@@ -214,11 +218,11 @@ body::after {
   width: 240px;
   height: 50px;
   z-index: 30;
-  right: 120px;
+  right: 80px;
   bottom: 8px;
   content: "";
 }
-
+*/
 /*********************************************
  * LINKS
  *********************************************/
