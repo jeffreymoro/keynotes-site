@@ -4,6 +4,30 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("https://jeffreymoro.com/assets/fonts/cmunrm-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("https://jeffreymoro.com/assets/fonts/cmunsl-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("https://jeffreymoro.com/assets/fonts/cmunbl-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("https://jeffreymoro.com/assets/fonts/cmunbx-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -15,7 +39,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: "Computer Modern Serif", "CMU Serif", Helvetica, sans-serif;
+  font-family: "Computer Modern Serif", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #222; }
@@ -46,7 +70,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "Computer Modern Serif", "CMU Serif", Helvetica, sans-serif;
+  font-family: "Computer Modern Serif", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;

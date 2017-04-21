@@ -10,9 +10,33 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
 // Include theme-specific fonts
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('https://jeffreymoro.com/assets/fonts/cmunrm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('https://jeffreymoro.com/assets/fonts/cmunsl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('https://jeffreymoro.com/assets/fonts/cmunbl-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('https://jeffreymoro.com/assets/fonts/cmunbx-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,8 +46,8 @@ $mainColor: #222;
 $headingColor: #222;
 
 $mainFontSize: 42px;
-$mainFont: 'Computer Modern Serif','CMU Serif', Helvetica, sans-serif;
-$headingFont: 'Computer Modern Serif','CMU Serif', Helvetica, sans-serif;
+$mainFont: 'Computer Modern Serif', Helvetica, sans-serif;
+$headingFont: 'Computer Modern Serif', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
